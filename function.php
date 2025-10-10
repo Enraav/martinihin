@@ -78,8 +78,19 @@ echo "все делители $number: " . implode(", ", $divisors) ;
 
 <h2> Заданеи №5 </h2>
 <?php
-$the_numbers_are_square  = [
-'number' =>
+$numbers=[1,2,3,4];
+function sumOfSquares($numbers) {
+    if (!is_array($numbers) || empty($numbers)) {
+        return 0;
+    }
+    $sum = 0;
+    foreach ($numbers as $number) {
+        if (is_numeric($number)) {
+            $sum += $number * $number;
+        }
+    }
+    return $sum;
+}
+echo sumOfSquares($numbers); 
 
-]
 ?>
