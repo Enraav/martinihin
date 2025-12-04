@@ -70,7 +70,7 @@ echo $string;
 <h2>Задание 5</h2>
 <?php
 $array = [-7, -13, -1, -5, -2];
-function abs_values(&$arr) {
+function abs_values(&$arr) {    
     foreach ($arr as &$value) {
         $value = abs($value);
     }

@@ -1,0 +1,39 @@
+{
+    "users": [
+        {            
+            "name": "Сергей",
+            "login": "SERgay",
+            "password": "altuhcka",
+            "emali": "rfaseffcad@mail.ru",
+            "amount": "300"
+        },
+        {            
+            "name": "Марат",
+            "login":"king1337",
+            "password": "BUJFugaEfa",
+            "emali": "Marat@mail.ru",
+            "amount": "300 000 000 000 "
+        },
+        {            
+            "name": "Даня",
+            "login": "бигмак",
+            "password": "вкусно_как_в_ссср",
+            "emali": "vanya@mail.ru",
+            "amount": "1000"
+        },
+        {            
+            "name": "Никита",
+            "login": "fiazdfguba",
+            "password": "ggyfhudc",
+            "emali": "FfdsEngfMba@mail.ru",
+            "amount": "10"
+        },
+        {            
+            "name": "Павел",
+            "login": "станоккрутой2014",
+            "password": "standoff",
+            "emali": "strqwas@mail.ru",
+            "amount": "40"
+        }
+    ]
+}
